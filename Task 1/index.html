@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <a href="/">Daksh Saraswat</a>
+        </div>
+        <div class="right">
+            <a href="https://github.com/alexansh" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/daksh-saraswat-98b5a42a4" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mailto:saraswatansh4@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>E-mail</span>
+            </a>
+        </div>
+    </nav>
+
+
+    <main>
+        <!-- secrtion 1 -->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I am Daksh 👋</h2>
+                <p>I am a creative and detail-oriented developer focused on building 
+                    clean, intuitive, and engaging digital experiences. I combine 
+                    thoughtful design with efficient functionality to create solutions 
+                    that feel seamless and user-centered. Whether developing full-scale 
+                    applications or refining smaller interfaces, I aim to transform ideas
+                    into polished, meaningful products. With a passion for learning and 
+                    improving, I continuously explore new tools and technologies to 
+                    deliver high-quality work that stands out and makes an impact.</p>
+                    <div class="links">
+                        <a href="#skils">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Skills</span>
+                        </a>
+
+                        <a href="#contact">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>Contact</span>
+                        </a>
+
+                        <a href="resume.pdf" download>
+                            <i class="fa-solid fa-file-arrow-down"></i>
+                            <span>Resume</span>
+                        </a>
+                    </div>
+            </div>
+
+            <div class="headshot">
+                <img src="images/portfolio.jpg" alt="Daksh Saraswat Headshot">
+            </div>
+        </section>
+
+
+        <!-- section 2 -->
+        <section id="skills" class="skills-section">
+            <h2>Skils</h2>
+            <div class="text">
+                I bring strong skills in data structures and algorithms,
+                 basic research, and organized problem-solving. My critical 
+                 thinking, adaptability, and creativity help me approach 
+                 challenges effectively. I work confidently with programming
+                 languages—from systems-level options like C/C++ to high-level 
+                 languages such as Python and JavaScript—and have hands-on 
+                 experience using MongoDB
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html-logo.webp" alt="HTML5 Logo">
+                    <span>HTML5</span>
+                </div>
+                <div class="cell">
+                    <img src="images/css-logo.webp" alt="CSS Logo">
+                    <span>CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="images/javascript-logo.webp" alt="Javascript Logo">
+                    <span>Javascript</span>
+                </div>
+                <div class="cell">
+                    <img src="images/node-logo.webp" alt="Nodejs Logo">
+                    <span>Nodejs</span>
+                </div>
+                <div class="cell">
+                    <img src="images/react-logo.webp" alt="Reactjs Logo">
+                    <span>Reactjs</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 3 -->
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <div class="groups">
+                <div class="text">
+                    If you'd like to collaborate, discuss an opportunity, or simply have a question,
+                    feel free to reach out. I'm always open to meaningful conversations, new ideas,
+                    and exciting projects. You can contact me anytime through email or connect with
+                    me on social platforms. I look forward to hearing from you!
+                </div>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" cols="30" rows="10" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- section 4 -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <!-- Project 1 -->
+            <div class="project">
+                <h3>Student Management System (C++)</h3>
+                <p>
+                    A simple student management system developed using C++ and linked lists. 
+                    It allows dynamic insertion, deletion, searching, and display of student records.
+                </p>
+                <a href="https://github.com/alexansh/Code-Projects/blob/main/student-management-system.c%2B%2B" target="_blank">View Project
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+
+                <!-- Project 2 (Flowchart Project) -->
+                <div class="project">
+                    <h3>Flowchart-Based Project</h3>
+
+                    <!-- Flowchart image -->
+                    <img src="images/arduino.png" alt="Project Flowchart" class="project-image">
+
+                    <p> 
+                        This project includes a complete flowchart diagram that visually explains the 
+                        system's logic and workflow. The full source code and implementation details 
+                        are available on GitHub.
+                    </p>    
+
+                    <!-- GitHub link -->
+                    <a href="https://github.com/alexansh/Code-Projects/blob/main/night-security-light-sketch.ino" target="_blank">
+                        View Code on GitHub <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+        </section>
+        <footer class="footer">
+            <p>© 2025 Daksh Saraswat. All rights reserved.</p>
+        </footer>
+
+
+    </main>
+</body>
+</html>
